@@ -1,4 +1,8 @@
-import {ARTISTLIST_ALL,GET_ARTIST_SEARCH} from '../types';
+import {
+    ARTISTLIST_ALL,
+    GET_ARTIST_SEARCH,
+    GET_ARTIST_DETAIL
+} from '../types';
 export default function(state = {},action) {
     switch(action.type){
         case ARTISTLIST_ALL:
@@ -10,6 +14,11 @@ export default function(state = {},action) {
             return{
                 ...state,
                 artistList: action.payload
+            }
+        case GET_ARTIST_DETAIL:
+            return {
+                ...state,
+                artistData: action.payload
             }
         default:
             return state;
