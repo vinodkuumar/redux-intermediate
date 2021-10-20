@@ -1,0 +1,1 @@
+export const ARTISTLIST_ALL = 'ARTISTLIST_ALL';
