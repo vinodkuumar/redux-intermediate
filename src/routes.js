@@ -7,7 +7,7 @@ import Artists from './components/artists';
 const Routes = () => {
     return(
         <Switch>
-            <Route path="/artists/:id" exact component={Artists} />
+            <Route path="/artist/:id" exact component={Artists} />
             <Route path="/" exact component={Home} />     
         </Switch>
     )

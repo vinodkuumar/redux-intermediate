@@ -2,7 +2,8 @@ import axios from 'axios';
 import {
     ARTISTLIST_ALL,
     GET_ARTIST_SEARCH,
-    GET_ARTIST_DETAIL
+    GET_ARTIST_DETAIL,
+    CLEAR_ARTIST_DETAIL
 } from '../types';
 
 const URL = "http://localhost:3004";
@@ -31,5 +32,12 @@ export const artistsDetail = (id) => {
     return {
         type: GET_ARTIST_DETAIL,
         payload: request
+    }
+}
+
+export const clearArtistDetail = () => {
+    return {
+        type:CLEAR_ARTIST_DETAIL,
+        payload: null
     }
 }

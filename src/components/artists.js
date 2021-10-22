@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { artistsDetail } from '../store/actions';
+import { artistsDetail, clearArtistDetail } from '../store/actions';
 
 class Artists extends Component {
     componentDidMount() {
         this.props.dispatch(artistsDetail(this.props.match.params.id))
+    }
+    componentWillUnmount() {
+        this.props.dispatch(clearArtistDetail());
     }
     artistTemplate = (data) => (
         data.artistData ? (
