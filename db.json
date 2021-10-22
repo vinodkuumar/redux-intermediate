@@ -14,18 +14,18 @@
           "style":"rock, blues"
       },
       { 
-          "id": 2,
-          "name": "Madonna",
-          "cover":"madonna.jpg", 
-          "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-          "albums": [
-              {"albumId":"b1","title":"Like a Virgin","year":1984,"cover":"like_a_virgin.jpg","price":20},
-              {"albumId":"b2","title":"True Blue","year":1986,"cover":"true_blue.jpg","price":25},
-              {"albumId":"b3","title":"Erotica","year":1994,"cover":"erotica.jpg","price":15},
-              {"albumId":"b4","title":"Ray of Light","year":1998,"cover":"ray_of_light.jpg","price":10}
-          ],
-          "style":"pop"
-      },
+        "id": 2,
+        "name": "Pearl jam", 
+        "cover":"pearl_jam.jpg", 
+        "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "albums": [
+            {"albumId":"h1","title":"Ten","year":1979,"cover":"ten.jpg","price":20},
+            {"albumId":"h2","title":"Vs","year":1997,"cover":"vs.jpg","price":25},
+            {"albumId":"h3","title":"Vitalogy","year":2000,"cover":"vitalogy.jpg","price":15}
+        ],
+        "style":"Rock"
+    },
+      
       { 
           "id": 3,
           "name": "Johnny Cash", 
@@ -115,15 +115,16 @@
         },
         { 
             "id": 10,
-            "name": "Pearl jam", 
-            "cover":"pearl_jam.jpg", 
+            "name": "Madonna",
+            "cover":"madonna.jpg", 
             "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             "albums": [
-                {"albumId":"h1","title":"Ten","year":1979,"cover":"ten.jpg","price":20},
-                {"albumId":"h2","title":"Vs","year":1997,"cover":"vs.jpg","price":25},
-                {"albumId":"h3","title":"Vitalogy","year":2000,"cover":"vitalogy.jpg","price":15}
+                {"albumId":"b1","title":"Like a Virgin","year":1984,"cover":"like_a_virgin.jpg","price":20},
+                {"albumId":"b2","title":"True Blue","year":1986,"cover":"true_blue.jpg","price":25},
+                {"albumId":"b3","title":"Erotica","year":1994,"cover":"erotica.jpg","price":15},
+                {"albumId":"b4","title":"Ray of Light","year":1998,"cover":"ray_of_light.jpg","price":10}
             ],
-            "style":"Rock"
+            "style":"pop"
         }
     ]
   }
