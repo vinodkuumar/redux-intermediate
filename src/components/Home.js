@@ -11,7 +11,7 @@ class Home extends Component {
         data ? (
             data.map((item) => (
                 <Link 
-                    to={`/artists/${item.id}`} 
+                    to={`/artist/${item.id}`} 
                     key={item.id}
                     className="artist_item">
                         <div className="cover" style={{background: `url(/images/${item.cover})`}}>
